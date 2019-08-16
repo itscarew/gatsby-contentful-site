@@ -1,0 +1,12 @@
+.post__content h4 {
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+
+.post__content ol {
+  list-style: circle inside;
+}
+
+.post__content img {
+  margin: 1rem 0;
+}
