@@ -9,22 +9,18 @@ const ContactPage = () => (
     <div>
       <h3 className="font-semibold my-4">Contact Me</h3>
       <p className="capitalize">you can contact me via :</p>
-      <div className="inline-flex text-4xl lg:py-4 md:py- py-2 ">
+      <div className="inline-flex lg:text-3xl md:text-3xl text-2xl lg:py-4 md:py- py-2 text-gray-800 hover:text-gray-900 ">
         <a href="/">
-          {" "}
-          <i className="fab fa-twitter text-blue-600 mr-5 "></i>
+          <i className="fab fa-twitter mr-5 "></i>
         </a>
         <a href="/">
-          {" "}
-          <i className="fab fa-instagram mr-5 text-pink-700 "></i>
+          <i className="fab fa-instagram mr-5  "></i>
         </a>
         <a href="/">
-          {" "}
-          <i className="fab fa-behance mr-5 text-blue-500 "></i>
+          <i className="fab fa-behance mr-5 "></i>
         </a>
         <a href="/">
-          {" "}
-          <i className="fab fa-github mr-5 text-gray-800 "></i>
+          <i className="fab fa-github mr-5 "></i>
         </a>
       </div>
     </div>

@@ -32,10 +32,12 @@ const Blog = props => {
       <p className="text-gray-600">
         {props.data.contentfulBlogPost.publishedDate}
       </p>
-      {documentToReactComponents(
-        props.data.contentfulBlogPost.body.json,
-        options
-      )}
+      <div className=" post__content my-2">
+        {documentToReactComponents(
+          props.data.contentfulBlogPost.body.json,
+          options
+        )}
+      </div>
     </Layout>
   )
 }

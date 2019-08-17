@@ -11,7 +11,7 @@ const IndexPage = () => {
       <div>
         <Link to="/about">
           <h2 className="font-semibold">Hello.</h2>
-          <h3 className="capitalize font-semibold lg:text-4xl md:text-4xl text-3xl ">
+          <h3 className="capitalize lg:font-semibold md:font-semibold lg:text-4xl md:text-4xl text-2xl my-2 ">
             I'm "Your name", living in beautiful Lagos, nigeria
           </h3>
         </Link>

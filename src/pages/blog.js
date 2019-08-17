@@ -28,10 +28,10 @@ const BlogPage = () => {
           return (
             <div
               key={index}
-              className="w-full py-2 lg:py-4 md:py-4 pl-4 hover:bg-gray-300 "
+              className="w-full py-2 lg:py-4 md:py-4 pl-4 hover:bg-gray-300 active:bg-gray-500 "
             >
               <Link to={`blog/${blog.node.slug}`}>
-                <h3 className="capitalize italic ">{blog.node.title}</h3>
+                <h4 className="capitalize italic ">{blog.node.title}</h4>
                 <p className="text-gray-600 italic ">
                   {blog.node.publishedDate}
                 </p>
